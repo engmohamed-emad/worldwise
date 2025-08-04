@@ -86,7 +86,7 @@ data/              # JSON data for json-server
 
 ---
 
-## 🙏 Credits
+## Credits
 
 - Map tiles by [OpenStreetMap](https://www.openstreetmap.org/)
 - Map rendering by [Leaflet](https://leafletjs.com/)
