@@ -8,22 +8,26 @@ WorldWise is a modern React application that helps you track your travels and ad
 
 - **Responsive Design:**  
   Clean, modern UI that works on desktop and mobile.  
+
   ![Homepage](./src/Photos/Home.png)
 
 - **Interactive Map:**  
   Visualize all your visited cities on a beautiful map powered by [Leaflet](https://leafletjs.com/).
 
 - **Country Overview:**  
-  See a summary of countries you've visited, grouped by country.   
+  See a summary of countries you've visited, grouped by country. 
+
   ![Map View](./src/Photos/AllTrips.png)
  
 - **City Management:**  
   Add, view, and delete cities. Each city includes country, emoji, date of visit, and personal notes.  
+  
   ![Add City](./src/Photos/SpecificCity.png)
 
 
 - **Authentication:**  
   Simple login/logout flow with protected routes.
+  
   ![Log in](./src/Photos/Login.png)
 
 
