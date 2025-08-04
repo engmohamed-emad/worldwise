@@ -6,20 +6,26 @@ WorldWise is a modern React application that helps you track your travels and ad
 
 ## ✨ Features
 
+- **Responsive Design:**  
+  Clean, modern UI that works on desktop and mobile.  
+  ![Homepage](./src/Photos/Home.png)
+
 - **Interactive Map:**  
   Visualize all your visited cities on a beautiful map powered by [Leaflet](https://leafletjs.com/).
 
-- **City Management:**  
-  Add, view, and delete cities. Each city includes country, emoji, date of visit, and personal notes.
-
 - **Country Overview:**  
-  See a summary of countries you've visited, grouped by country.
+  See a summary of countries you've visited, grouped by country.   
+  ![Map View](./src/Photos/AllTrips.png)
+ 
+- **City Management:**  
+  Add, view, and delete cities. Each city includes country, emoji, date of visit, and personal notes.  
+  ![Add City](./src/Photos/SpecificCity.png)
+
 
 - **Authentication:**  
   Simple login/logout flow with protected routes.
+  ![Log in](./src/Photos/Login.png)
 
-- **Responsive Design:**  
-  Clean, modern UI that works on desktop and mobile.
 
 - **Persistent Data:**  
   All city data is stored and served via a local JSON server.
@@ -36,26 +42,6 @@ WorldWise is a modern React application that helps you track your travels and ad
 - **CSS Modules** for scoped, maintainable styles
 - **json-server** for local REST API
 - **ESLint** for code quality
-
----
-
-## 📸 Screenshots
-
-### Homepage
-
-![Homepage](./src/pages/Photos/homepage.png)
-
-### Map View
-
-![Map View](./src/pages/Photos/map.png)
-
-### Add City Form
-
-![Add City](./src/pages/Photos/add-city.png)
-
-### Country List
-
-![Country List](./src/pages/Photos/country-list.png)
 
 ---
 
@@ -88,6 +74,7 @@ src/
   contexts/        # React Context providers
   hooks/           # Custom React hooks
   pages/           # Page components and Photos
+    Photos/        # App screenshots
   assets/          # Static assets
 public/            # Public images and icons
 data/              # JSON data for json-server
@@ -109,4 +96,4 @@ This project is for educational purposes.
 
 ---
 
-> Made with ❤️ using React & Leaflet.
+> Made with ❤️
